@@ -1,0 +1,212 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ariks International Academy</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #7c3aed; /* purple */
+      --secondary: #c4b5fd; /* lilac */
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <!-- Header -->
+  <header class="bg-white shadow-md sticky top-0 z-50">
+    <div class="container mx-auto px-4 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <!-- Updated Logo in Header -->
+        <img src="logo.png" alt="Ariks International Academy Logo" class="h-12 w-auto">
+        <div>
+          <h1 class="text-lg font-semibold">Ariks International Academy</h1>
+          <p class="text-sm text-gray-500">Ibadan, Nigeria — Faith-based • Nigerian & British curricula</p>
+        </div>
+      </div>
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a href="#about" class="hover:text-purple-600">About</a>
+        <a href="#academics" class="hover:text-purple-600">Academics</a>
+        <a href="#facilities" class="hover:text-purple-600">Facilities</a>
+        <a href="#admissions" class="hover:text-purple-600">Admissions</a>
+        <a href="#contact" class="hover:text-purple-600">Contact</a>
+      </nav>
+      <div class="md:hidden">
+        <a href="#about" class="text-sm px-3 py-2 bg-purple-600 text-white rounded-md">Explore</a>
+      </div>
+    </div>
+  </header> 
+  <!-- Hero -->
+<section class="relative bg-gray-800 text-white py-12 md:py-20 overflow-hidden">
+  <!-- Background Image (school hallway like the example) -->
+  <div class="absolute inset-0 bg-cover bg-center opacity-50" style="background-image: url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1920&q=60');"></div>
+  
+  <!-- Overlay Content -->
+  <div class="container mx-auto px-4 relative z-10">
+    <div class="grid md:grid-cols-2 gap-8 items-center">
+      <!-- Left: Text with yellow blob background -->
+      <div class="relative">
+        <!-- Yellow Blob Shape (like the orange in the example) -->
+        <div class="absolute -top-4 -left-4 w-64 h-64 bg-yellow-400 rounded-full opacity-20 blur-xl md:w-80 md:h-80"></div>
+        <h2 class="text-3xl md:text-5xl font-extrabold relative z-10">Your Kids Deserve The Best Education</h2>
+        <p class="mt-4 text-lg relative z-10">Active Learning, Expert Teachers & Safe Environment</p>
+        <div class="mt-6 flex gap-3 relative z-10">
+          <a href="#admissions" class="px-5 py-2 bg-yellow-500 text-gray-800 rounded-md shadow hover:opacity-95">Learn More</a>
+          <a href="#contact" class="px-5 py-2 border border-white text-white rounded-md">Contact Us</a>
+        </div>
+        
+        <!-- Keep your original list -->
+        <ul class="mt-6 space-y-2 text-sm relative z-10">
+          <li>• Blend of Nigerian & British curricula</li>
+          <li>• Montessori approach in early years</li>
+          <li>• Safe, modern facilities with optional boarding</li>
+        </ul>
+      </div>
+      
+      <!-- Right: Kid Image on Blue Circle with Speech Bubble -->
+      <div class="relative flex justify-center md:justify-end">
+        <!-- Blue Circle -->
+        <div class="w-64 h-64 md:w-80 md:h-80 bg-blue-500 rounded-full flex items-center justify-center overflow-hidden shadow-lg">
+          <!-- Img Tag for Kid (swap src with your own image) -->
+          <img src="first1.webp" alt="Student" class="w-full h-full object-cover" />
+        </div>
+        
+        <!-- Speech Bubble (like "Back to School" in the example) -->
+        <div class="absolute top-0 right-0 md:right-10 bg-white text-gray-800 px-4 py-2 rounded-full shadow-md text-sm font-semibold transform rotate-12">
+          Back to School!
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+   <!-- About -->  <section id="about" class="container mx-auto px-4 mb-12">
+    <h3 class="text-2xl font-bold mb-4 text-purple-700">About Ariks International Academy</h3>
+    <div class="bg-white rounded-xl p-6 shadow-sm">
+      <p class="text-gray-700">Located at 17 Alarere Layout, off New Ife Road, Ibadan, Ariks International Academy accepts students of all backgrounds and provides a strong foundation for future academic success. Our staff are highly dedicated and committed to quality education and guidance.</p>
+      <div class="mt-4 grid md:grid-cols-3 gap-4 text-sm">
+        <div class="p-3 border rounded-md bg-purple-50">
+          <div class="text-xs text-purple-700">Levels</div>
+          <div class="mt-1 text-sm text-gray-800">Creche • Nursery • Primary • Secondary (J.S.S.1)</div>
+        </div>
+        <div class="p-3 border rounded-md bg-purple-50">
+          <div class="text-xs text-purple-700">Focus</div>
+          <div class="mt-1 text-sm text-gray-800">Academic excellence + moral education</div>
+        </div>
+        <div class="p-3 border rounded-md bg-purple-50">
+          <div class="text-xs text-purple-700">Facilities</div>
+          <div class="mt-1 text-sm text-gray-800">Ultra-modern facilities & boarding</div>
+        </div>
+      </div>
+    </div>
+  </section>  <!-- Academics -->  <section id="academics" class="container mx-auto px-4 mb-12">
+    <h3 class="text-2xl font-bold mb-4 text-purple-700">Academics & Curriculum</h3>
+    <div class="bg-white rounded-xl p-6 shadow-sm">
+      <div class="grid md:grid-cols-2 gap-6">
+        <div>
+          <h4 class="font-semibold text-purple-700">Curriculum</h4>
+          <p class="mt-2 text-gray-700">We offer a blend of Nigerian and British curricula, with a Montessori approach in the early years to promote independence and hands-on learning.</p>
+          <h4 class="font-semibold text-purple-700 mt-4">Teaching Approach</h4>
+          <p class="mt-2 text-gray-700">Interactive teaching techniques, small-class mentorship, strong values-based education, and regular assessments to monitor progress.</p>
+        </div>
+        <div>
+          <h4 class="font-semibold text-purple-700">Co-curricular Activities</h4>
+          <ul class="mt-2 list-disc list-inside text-gray-700">
+            <li>STEM club & science fairs</li>
+            <li>Arts, music & drama</li>
+            <li>Inter-house sports & debates</li>
+          </ul>
+          <h4 class="font-semibold text-purple-700 mt-4">Assessment & Progress</h4>
+          <p class="mt-2 text-gray-700">Regular term assessments, parent-teacher meetings, and continuous feedback ensure every child progresses.</p>
+        </div>
+      </div>
+    </div>
+  </section>  <!-- Facilities -->  <section id="facilities" class="container mx-auto px-4 mb-12">
+    <h3 class="text-2xl font-bold mb-4 text-purple-700">Facilities</h3>
+    <div class="bg-white rounded-xl p-6 shadow-sm grid md:grid-cols-3 gap-4">
+      <div class="p-4 border rounded-md bg-purple-50"><div class="font-semibold text-purple-700">Classrooms</div><div class="text-sm text-gray-600 mt-1">Bright, ventilated classrooms with age-appropriate furniture.</div></div>
+      <div class="p-4 border rounded-md bg-purple-50"><div class="font-semibold text-purple-700">Library</div><div class="text-sm text-gray-600 mt-1">Well-stocked library to encourage reading and research.</div></div>
+      <div class="p-4 border rounded-md bg-purple-50"><div class="font-semibold text-purple-700">Laboratories</div><div class="text-sm text-gray-600 mt-1">Science and computer labs equipped for practical learning.</div></div>
+      <div class="p-4 border rounded-md bg-purple-50"><div class="font-semibold text-purple-700">Playground</div><div class="text-sm text-gray-600 mt-1">Safe play areas and sports fields for physical development.</div></div>
+      <div class="p-4 border rounded-md bg-purple-50"><div class="font-semibold text-purple-700">Boarding</div><div class="text-sm text-gray-600 mt-1">Comfortable boarding section with caring supervision.</div></div>
+      <div class="p-4 border rounded-md bg-purple-50"><div class="font-semibold text-purple-700">Security</div><div class="text-sm text-gray-600 mt-1">24/7 security and controlled access for student safety.</div></div>
+    </div>
+  </section>  <!-- Gallery -->  <section class="container mx-auto px-4 mb-12">
+    <h3 class="text-2xl font-bold mb-4 text-purple-700">Gallery</h3>
+    <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+      <img src="https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?auto=format&fit=crop&w=1200&q=60" class="w-full h-48 object-cover rounded-lg shadow" />
+      <img src="https://images.unsplash.com/photo-1556012018-8f2f6a5a0b64?auto=format&fit=crop&w=1200&q=60" class="w-full h-48 object-cover rounded-lg shadow" />
+      <img src="https://images.unsplash.com/photo-1532619187606-2b9b6f6a7b9a?auto=format&fit=crop&w=1200&q=60" class="w-full h-48 object-cover rounded-lg shadow" />
+      <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1200&q=60" class="w-full h-48 object-cover rounded-lg shadow" />
+      <img src="https://images.unsplash.com/photo-1526406915891-1b50b6e7c6e6?auto=format&fit=crop&w=1200&q=60" class="w-full h-48 object-cover rounded-lg shadow" />
+      <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1200&q=60" class="w-full h-48 object-cover rounded-lg shadow" />
+    </div>
+  </section>  <!-- Admissions -->  <section id="admissions" class="container mx-auto px-4 mb-12">
+    <h3 class="text-2xl font-bold mb-4 text-purple-700">Admissions</h3>
+    <div class="bg-white rounded-xl p-6 shadow-sm grid md:grid-cols-2 gap-6">
+      <div>
+        <h4 class="font-semibold text-purple-700">How to Apply</h4>
+        <ol class="mt-2 list-decimal list-inside text-gray-700">
+          <li>Download & fill the admission form (or get from school office).</li>
+          <li>Submit form with required documents and passport photos.</li>
+          <li>Attend the screening/test & parent interview where applicable.</li>
+          <li>Receive admission offer and complete fee payment to secure place.</li>
+        </ol>
+      </div>
+      <div>
+        <h4 class="font-semibold text-purple-700">Requirements</h4>
+        <ul class="mt-2 list-disc list-inside text-gray-700">
+          <li>Completed application form</li>
+          <li>Birth certificate or age declaration</li>
+          <li>Passport photos</li>
+          <li>Previous school reports (where applicable)</li>
+        </ul>
+        <div class="mt-4">
+          <a href="#contact" class="px-4 py-2 bg-purple-600 text-white rounded-md">Get the Form</a>
+        </div>
+      </div>
+    </div>
+  </section>  <!-- Contact -->  <section id="contact" class="container mx-auto px-4 mb-12">
+    <h3 class="text-2xl font-bold mb-4 text-purple-700">Location & Contact</h3>
+    <div class="grid md:grid-cols-2 gap-6">
+      <div class="bg-white rounded-xl p-6 shadow-sm">
+        <h4 class="font-semibold text-purple-700">Address</h4>
+        <p class="mt-2 text-gray-700">17 Alarere Layout, off Olubadan of Ibadan Palace, New Ife Road, Ibadan, Nigeria</p>
+        <h4 class="font-semibold text-purple-700 mt-4">Contact Numbers</h4>
+        <p class="mt-2 text-gray-700">09134025053, 09018554733, 08131667539</p>
+        <p class="mt-1 text-gray-700">WhatsApp: 08033957234</p>
+        <h4 class="font-semibold text-purple-700 mt-4">Office Hours</h4>
+        <p class="mt-2 text-gray-700">Mon - Fri: 8:00am — 4:00pm</p>
+        <div class="mt-4">
+          <a href="tel:09134025053" class="inline-block px-4 py-2 bg-green-600 text-white rounded-md mr-2">Call</a>
+          <a href="https://wa.me/2348033957234" class="inline-block px-4 py-2 border border-green-600 text-green-600 rounded-md">WhatsApp</a>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl p-6 shadow-sm">
+        <h4 class="font-semibold text-purple-700">Send a Message</h4>
+        <form onsubmit="event.preventDefault(); alert('Thanks — form submission would be handled by your backend.');" class="mt-3 space-y-3">
+          <div class="grid sm:grid-cols-2 gap-3">
+            <input required class="p-2 border rounded w-full" placeholder="Full name" />
+            <input required type="email" class="p-2 border rounded w-full" placeholder="Email address" />
+          </div>
+          <input class="p-2 border rounded w-full" placeholder="Phone (optional)" />
+          <textarea required class="p-2 border rounded w-full" rows="4" placeholder="Your message"></textarea>
+          <div>
+            <button type="submit" class="px-4 py-2 bg-purple-600 text-white rounded">Send Message</button>
+          </div>
+        </form>
+        <div class="mt-4">
+          <h4 class="font-semibold text-purple-700">Map</h4>
+          <div class="mt-2 w-full h-40 rounded overflow-hidden border">
+            <iframe title="map" src="https://www.google.com/maps?q=17%20Alarere%20Layout%20Ibadan&t=&z=13&ie=UTF8&iwloc=&output=embed" class="w-full h-full border-0" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>  <!-- Footer -->  <footer class="bg-white border-t mt-12">
+    <div class="container mx-auto px-4 py-6 flex flex-col md:flex-row items-center justify-between gap-4">
+      <div class="text-sm text-gray-600">© <span id="year"></span> Ariks International Academy — All rights reserved.</div>
+      <div class="text-sm text-purple-700">Designed with care • Ibadan, Nigeria</div>
+    </div>
+  </footer>  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script></body>
+</html>
